@@ -1,0 +1,107 @@
+﻿  CreateSpace.cpp
+C:\Users\marky\Documents\Visual Studio Projects\FinalAssignment\CreateSpace.cpp(24,31): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\marky\Documents\Visual Studio Projects\FinalAssignment\CreateSpace.cpp(24,16): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\marky\Documents\Visual Studio Projects\FinalAssignment\CreateSpace.cpp(26,45): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\marky\Documents\Visual Studio Projects\FinalAssignment\CreateSpace.cpp(26,30): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\marky\Documents\Visual Studio Projects\FinalAssignment\CreateSpace.cpp(28,59): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\marky\Documents\Visual Studio Projects\FinalAssignment\CreateSpace.cpp(28,30): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\marky\Documents\Visual Studio Projects\FinalAssignment\CreateSpace.cpp(30,47): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\marky\Documents\Visual Studio Projects\FinalAssignment\CreateSpace.cpp(30,17): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\marky\Documents\Visual Studio Projects\FinalAssignment\CreateSpace.cpp(46,54): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\marky\Documents\Visual Studio Projects\FinalAssignment\CreateSpace.cpp(47,62): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\marky\Documents\Visual Studio Projects\FinalAssignment\CreateSpace.cpp(48,70): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\marky\Documents\Visual Studio Projects\FinalAssignment\CreateSpace.cpp(49,62): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  Ship1.cpp
+  Space.cpp
+C:\Users\marky\Documents\Visual Studio Projects\FinalAssignment\Space.cpp(23,44): warning C4244: '=': conversion from 'unsigned int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\marky\Documents\Visual Studio Projects\FinalAssignment\Space.cpp(24,44): warning C4244: '=': conversion from 'unsigned int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\marky\Documents\Visual Studio Projects\FinalAssignment\Space.cpp(26,56): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\marky\Documents\Visual Studio Projects\FinalAssignment\Space.cpp(26,42): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\marky\Documents\Visual Studio Projects\FinalAssignment\Space.cpp(140,29): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+C:\Users\marky\Documents\Visual Studio Projects\FinalAssignment\Space.cpp(141,30): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+C:\Users\marky\Documents\Visual Studio Projects\FinalAssignment\Space.cpp(168,16): warning C4305: 'initializing': truncation from 'double' to 'float'
+  SpawnShip1.cpp
+C:\Users\marky\Documents\Visual Studio Projects\FinalAssignment\SpawnShip1.cpp(16,30): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\marky\Documents\Visual Studio Projects\FinalAssignment\SpawnShip1.cpp(17,41): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Generating Code...
+  FinalAssignment.vcxproj -> C:\Users\marky\Documents\Visual Studio Projects\FinalAssignment\Debug\FinalAssignment.exe
