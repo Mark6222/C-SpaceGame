@@ -133,6 +133,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CreateSpace.cpp" />
+    <ClCompile Include="Asteroids.cpp" />
     <ClCompile Include="Ship1.cpp" />
     <ClCompile Include="Space.cpp" />
     <ClCompile Include="player.cpp" />
@@ -141,6 +142,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="player.h" />
+    <ClInclude Include="Asteroids.h" />
     <ClInclude Include="Ship1.h" />
     <ClInclude Include="Space.h" />
     <ClInclude Include="TextureHolder.h" />

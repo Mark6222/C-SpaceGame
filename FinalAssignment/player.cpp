@@ -36,7 +36,7 @@ Time Player::getLastTime() {
 bool Player::hit(Time timeHit) {
 	if (timeHit.asMilliseconds() - m_LastHit.asMilliseconds() > 200) {
 		m_LastHit = timeHit;
-		m_Health -= 10;
+		//m_Health -= 10;
 		return true;
 	}
 	else {
@@ -126,8 +126,7 @@ void Player::update(float  speed, Vector2i mousePosition) {
 		m_position.y = m_Arena.top + m_TileSize;
 	}
 
-	float angle = (atan2(mousePosition.y - m_Resolution.y / 2,
-		mousePosition.x - m_Resolution.x / 2) * 180) / 3.141;
+	float angle = (atan2(mousePosition.y - m_Resolution.y / 2, mousePosition.x - m_Resolution.x / 2) * 180) / 3.141;
 
 	m_Sprite.setRotation(angle);
 }

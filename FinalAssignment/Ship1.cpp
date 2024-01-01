@@ -55,3 +55,13 @@ void Ship1::update(float elapsedTime)
 	m_Sprite.setRotation(180.0f);
 
 }
+
+bool Ship1::isOutOfBounds(int maxY) {
+	FloatRect position = m_Sprite.getGlobalBounds();
+	if (maxY < m_Position.y) {
+		return true;
+	}
+	else {
+		return false;
+	}
+}
