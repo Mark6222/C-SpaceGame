@@ -36,7 +36,7 @@ Time Player::getLastTime() {
 bool Player::hit(Time timeHit) {
 	if (timeHit.asMilliseconds() - m_LastHit.asMilliseconds() > 200) {
 		m_LastHit = timeHit;
-		//m_Health -= 10;
+		m_Health -= 10;
 		return true;
 	}
 	else {
@@ -98,6 +98,10 @@ void Player::stopDown() {
 }
 
 void Player::update(float  speed, Vector2i mousePosition) {
+	m_position.y = mousePosition.y;
+	m_position.x = mousePosition.x;
+	m_Sprite.setPosition(m_position);
+	/*
 	if (m_UpPressed) {
 		m_position.y -= m_Speed * speed;
 	}
@@ -111,7 +115,6 @@ void Player::update(float  speed, Vector2i mousePosition) {
 		m_position.x -= m_Speed * speed;
 	}
 	m_Sprite.setPosition(m_position);
-
 	// Keep the player in the arena
 	if (m_position.x > m_Arena.width - m_TileSize) {
 		m_position.x = m_Arena.width - m_TileSize;
@@ -125,10 +128,10 @@ void Player::update(float  speed, Vector2i mousePosition) {
 	if (m_position.y < m_Arena.top + m_TileSize) {
 		m_position.y = m_Arena.top + m_TileSize;
 	}
+	*/
+	//float angle = (atan2(mousePosition.y - m_Resolution.y / 2, mousePosition.x - m_Resolution.x / 2) * 180) / 3.141;
 
-	float angle = (atan2(mousePosition.y - m_Resolution.y / 2, mousePosition.x - m_Resolution.x / 2) * 180) / 3.141;
-
-	m_Sprite.setRotation(angle);
+	//m_Sprite.setRotation(angle);
 }
 
 void Player::upgradeSpeed() {

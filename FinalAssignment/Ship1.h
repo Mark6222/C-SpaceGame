@@ -24,6 +24,7 @@ public:
     Sprite getSprite();
     void update(float elapsedTime);
     bool isOutOfBounds(int maxY);
+    void increaseSpeed(int speed);
 };
 
 

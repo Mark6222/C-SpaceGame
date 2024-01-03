@@ -2,6 +2,7 @@
 #include "Space.h"
 
 int createSpace(VertexArray& rVA, IntRect arena) {
+
 	const int TILE_SIZE = 50;
 	const int TILE_TYPES = 3;
 	const int VERTS_IN_QUAD = 4;

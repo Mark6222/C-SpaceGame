@@ -9,7 +9,7 @@ class Player {
 
 private:
 	const float START_SPEED = 200;
-	const float START_HEALTH = 100;
+	const float START_HEALTH = 200;
 	Vector2f m_position;
 	Sprite m_Sprite;
 	Texture m_Texture;

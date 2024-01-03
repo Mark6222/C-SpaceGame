@@ -132,15 +132,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Ammo.cpp" />
     <ClCompile Include="CreateSpace.cpp" />
     <ClCompile Include="Asteroids.cpp" />
     <ClCompile Include="Ship1.cpp" />
     <ClCompile Include="Space.cpp" />
     <ClCompile Include="player.cpp" />
+    <ClCompile Include="SpawnAmmo.cpp" />
     <ClCompile Include="SpawnShip1.cpp" />
     <ClCompile Include="TextureHolder.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Ammo.h" />
     <ClInclude Include="player.h" />
     <ClInclude Include="Asteroids.h" />
     <ClInclude Include="Ship1.h" />

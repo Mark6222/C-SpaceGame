@@ -23,9 +23,6 @@ bool Ship1::hit()
 
 	if (SHIP1_HEALTH < 0) {
 		m_Alive = false;
-		m_Texture.loadFromFile("graphics/blood.png");
-        m_Sprite.setTexture(m_Texture);
-
 		return true;
 	}
 
@@ -49,6 +46,7 @@ Sprite Ship1::getSprite()
 
 void Ship1::update(float elapsedTime)
 {
+	// ship is moved along only on the y axis
 	m_Position.y += SPEED * elapsedTime;
 	m_Sprite.setPosition(m_Position);
 
@@ -57,6 +55,7 @@ void Ship1::update(float elapsedTime)
 }
 
 bool Ship1::isOutOfBounds(int maxY) {
+	//checks if the ship has gone past the screen
 	FloatRect position = m_Sprite.getGlobalBounds();
 	if (maxY < m_Position.y) {
 		return true;
@@ -64,4 +63,9 @@ bool Ship1::isOutOfBounds(int maxY) {
 	else {
 		return false;
 	}
+}
+
+void Ship1::increaseSpeed(int speed) {
+	//increase is speed for difficulty
+	SPEED = SPEED + speed;
 }

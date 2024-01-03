@@ -1,39 +1,59 @@
-﻿  player.cpp
-C:\Users\marky\Documents\Visual Studio Projects\FinalAssignment\player.cpp(4,13): warning C4244: '=': conversion from 'const float' to 'int', possible loss of data
-C:\Users\marky\Documents\Visual Studio Projects\FinalAssignment\player.cpp(5,16): warning C4244: '=': conversion from 'const float' to 'int', possible loss of data
-C:\Users\marky\Documents\Visual Studio Projects\FinalAssignment\player.cpp(12,29): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+﻿  Space.cpp
+C:\Users\marky\Documents\Visual Studio Projects\FinalAssignment\Space.cpp(23,44): warning C4244: '=': conversion from 'unsigned int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\marky\Documents\Visual Studio Projects\FinalAssignment\player.cpp(13,30): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+C:\Users\marky\Documents\Visual Studio Projects\FinalAssignment\Space.cpp(24,44): warning C4244: '=': conversion from 'unsigned int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\marky\Documents\Visual Studio Projects\FinalAssignment\player.cpp(28,13): warning C4244: '=': conversion from 'const float' to 'int', possible loss of data
-C:\Users\marky\Documents\Visual Studio Projects\FinalAssignment\player.cpp(29,16): warning C4244: '=': conversion from 'const float' to 'int', possible loss of data
-C:\Users\marky\Documents\Visual Studio Projects\FinalAssignment\player.cpp(117,32): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+C:\Users\marky\Documents\Visual Studio Projects\FinalAssignment\Space.cpp(26,56): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\marky\Documents\Visual Studio Projects\FinalAssignment\player.cpp(120,31): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+C:\Users\marky\Documents\Visual Studio Projects\FinalAssignment\Space.cpp(26,42): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\marky\Documents\Visual Studio Projects\FinalAssignment\player.cpp(123,33): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+C:\Users\marky\Documents\Visual Studio Projects\FinalAssignment\Space.cpp(43,17): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\marky\Documents\Visual Studio Projects\FinalAssignment\Space.cpp(58,47): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\marky\Documents\Visual Studio Projects\FinalAssignment\player.cpp(126,30): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+C:\Users\marky\Documents\Visual Studio Projects\FinalAssignment\Space.cpp(151,25): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\marky\Documents\Visual Studio Projects\FinalAssignment\Space.cpp(152,25): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\marky\Documents\Visual Studio Projects\FinalAssignment\Space.cpp(153,53): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\marky\Documents\Visual Studio Projects\FinalAssignment\Space.cpp(153,36): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\marky\Documents\Visual Studio Projects\FinalAssignment\Space.cpp(255,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\marky\Documents\Visual Studio Projects\FinalAssignment\Space.cpp(257,22): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\marky\Documents\Visual Studio Projects\FinalAssignment\Space.cpp(258,23): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\marky\Documents\Visual Studio Projects\FinalAssignment\Space.cpp(285,29): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\marky\Documents\Visual Studio Projects\FinalAssignment\player.cpp(129,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\marky\Documents\Visual Studio Projects\FinalAssignment\player.cpp(135,26): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
-C:\Users\marky\Documents\Visual Studio Projects\FinalAssignment\player.cpp(139,31): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+          and
+          [
+              T=int
+          ]
+C:\Users\marky\Documents\Visual Studio Projects\FinalAssignment\Space.cpp(286,30): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+C:\Users\marky\Documents\Visual Studio Projects\FinalAssignment\Space.cpp(305,16): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\marky\Documents\Visual Studio Projects\FinalAssignment\Space.cpp(312,56): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\marky\Documents\Visual Studio Projects\FinalAssignment\Space.cpp(312,36): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\marky\Documents\Visual Studio Projects\FinalAssignment\Space.cpp(324,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\marky\Documents\Visual Studio Projects\FinalAssignment\Space.cpp(344,27): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\marky\Documents\Visual Studio Projects\FinalAssignment\Space.cpp(346,75): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
   FinalAssignment.vcxproj -> C:\Users\marky\Documents\Visual Studio Projects\FinalAssignment\Debug\FinalAssignment.exe
